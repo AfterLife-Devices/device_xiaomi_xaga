@@ -227,7 +227,11 @@ PRODUCT_COPY_FILES += \
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
-    
+
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.xiaomi
+
 # Media
 PRODUCT_PACKAGES += \
     libcodec2_hidl@1.1.vendor \

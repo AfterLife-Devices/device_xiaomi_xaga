@@ -95,6 +95,9 @@
 # Graphics
 /sys/devices/virtual/mi_display/disp_feature/disp-DSI-+[0-1](/.*)?        u:object_r:vendor_sysfs_displayfeature:s0
 
+# Light
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.xiaomi u:object_r:hal_light_default_exec:s0
+
 # Hals
 /(vendor|system/vendor)/bin/hw/vendor\.xiaomi\.sensor\.citsensorservice@1\.1-service u:object_r:vendor_hal_citsensorservice_xiaomi_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.xaga u:object_r:hal_vibrator_default_exec:s0
