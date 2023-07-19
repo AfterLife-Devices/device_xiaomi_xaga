@@ -2829,21 +2829,6 @@ vendor_dlkm/lib/modules/xiaomi_touch.ko
 vendor_dlkm/lib/modules/zram.ko
 vendor_dlkm/lib/modules/zsmalloc.ko
 
-# Wi-Fi
-vendor/bin/hw/android.hardware.wifi@1.0-service-lazy
-vendor/bin/hw/hostapd
-vendor/bin/hw/wpa_supplicant
-vendor/etc/init/android.hardware.wifi.supplicant-service.rc
-vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc
-vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
-vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
-vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml
-vendor/lib/libkeystore-wifi-hidl.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
-vendor/lib64/libwifi-hal.so
-vendor/lib64/vendor.mediatek.hardware.wifi.hostapd_ext@1.0.so
-
 # Wi-Fi configs
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/passpointProfile.conf
