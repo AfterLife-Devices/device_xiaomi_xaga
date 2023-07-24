@@ -384,6 +384,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/prebuilts/firmware/,recovery/root/vendor/firmware)
 
+# Properties
+include $(LOCAL_PATH)/vendor_logtag.mk
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePkgs
