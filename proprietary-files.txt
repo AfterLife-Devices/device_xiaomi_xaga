@@ -2829,6 +2829,9 @@ vendor_dlkm/lib/modules/xiaomi_touch.ko
 vendor_dlkm/lib/modules/zram.ko
 vendor_dlkm/lib/modules/zsmalloc.ko
 
+# Wi-Fi
+vendor/lib64/libwifi-hal.so
+
 # Wi-Fi configs
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/passpointProfile.conf
