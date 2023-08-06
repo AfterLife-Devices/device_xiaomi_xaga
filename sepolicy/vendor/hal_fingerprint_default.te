@@ -1,6 +1,8 @@
 type vendor_sysfs_fp, fs_type, sysfs_type;
 type vendor_fingerprint_data_file, file_type, data_file_type;
+type vendor_hal_fingerprint_hwservice_xiaomi, hwservice_manager_type;
 
+add_hwservice(hal_fingerprint_default, vendor_hal_fingerprint_hwservice_xiaomi)
 vendor_public_prop(vendor_fp_prop)
 vendor_restricted_prop(vendor_fp_info_prop)
 
