@@ -220,6 +220,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_mt6895
 
+# Linker
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+    
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
