@@ -97,7 +97,6 @@ void vendor_load_properties()
     }
 
     // Misc
-    property_override("ro.apex.updatable", "false");
     property_override("ro.product.mod_device", "xaga_global");
 
     // Override all partitions' props
