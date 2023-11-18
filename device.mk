@@ -269,7 +269,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint-V1-ndk_platform.vendor:64 \
     android.hardware.security.sharedsecret-V1-ndk_platform.vendor:64 \
     android.hardware.security.secureclock-V1-ndk_platform.vendor:64 \
-    android.hardware.vibrator-V1-ndk_platform.vendor:64 \
     android.system.keystore2-V1-ndk_platform.vendor:64
 
 # NFC
@@ -471,7 +470,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndservice \
     vndservicemanager
+    
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service.xaga
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+    
 # VNDK
 PRODUCT_PACKAGES += \
     libutils-v32

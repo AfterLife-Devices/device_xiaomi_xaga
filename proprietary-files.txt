@@ -2829,13 +2829,6 @@ vendor_dlkm/lib/modules/xiaomi_touch.ko
 vendor_dlkm/lib/modules/zram.ko
 vendor_dlkm/lib/modules/zsmalloc.ko
 
-# Vibrator
-vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service
-vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc
-vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature@1.0-service.rc
-vendor/etc/vintf/manifest/vendor.xiaomi.hardware.vibratorfeature.service.xml
-vendor/lib64/vendor.hardware.vibratorfeature.IVibratorExt-V1-ndk_platform.so
-
 # Wi-Fi
 vendor/bin/hw/android.hardware.wifi@1.0-service-lazy
 vendor/bin/hw/hostapd

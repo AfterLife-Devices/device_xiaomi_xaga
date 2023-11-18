@@ -158,32 +158,6 @@ vendor.display.idle_time_inactive=0
 # FRP
 ro.frp.pst=/dev/block/by-name/frp
 
-# Haptics
-sys.haptic.down.normal=2
-sys.haptic.down.strong=5
-sys.haptic.down.weak=0
-sys.haptic.down=1,2
-sys.haptic.dynamiceffect.richtap=true
-sys.haptic.dynamiceffect=true
-sys.haptic.flick.light=1,1
-sys.haptic.flick=1,2
-sys.haptic.hold=1,2
-sys.haptic.infinitelevel=true
-sys.haptic.long.press=1,1
-sys.haptic.mesh.heavy=1,2
-sys.haptic.mesh.light=1,0
-sys.haptic.mesh.normal=1,1
-sys.haptic.motor=linear
-sys.haptic.pickup=1,2
-sys.haptic.popup.light=1,1
-sys.haptic.popup.normal=1,2
-sys.haptic.runin=13
-sys.haptic.scroll.edge=1,0
-sys.haptic.switch=1,1
-sys.haptic.tap.light=1,1
-sys.haptic.tap.normal=1,2
-sys.haptic.trigger.drawer=1,0
-
 # IMS
 persist.vendor.ims.disableADBLogs=1
 persist.vendor.ims.disableDebugLogs=1
