@@ -1063,18 +1063,13 @@ vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 
 # Fingerprint
-vendor/lib/hw/fingerprint.fpc_isee.so
-vendor/lib/hw/fingerprint.goodix.so
-vendor/lib/libgf_ca.so
-vendor/lib/libgf_hal.so
-vendor/lib/libgoodixhwfingerprint.so
-vendor/lib/vendor.xiaomi.hardware.fx.tunnel@1.0.so
-vendor/lib64/hw/fingerprint.fpc_isee.so
-vendor/lib64/hw/fingerprint.goodix.so
+vendor/etc/vintf/manifest/fod.xml
+vendor/lib64/hw/fingerprint.fpc_isee.so:vendor/lib64/hw/fingerprint.fpc.default.so
+vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.default.so
+vendor/lib64/com.fingerprints.extension@3.0.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 # Firmware
@@ -1539,7 +1534,6 @@ system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 # Miscellaneous
 vendor/app/IFAAService/IFAAService.apk
 vendor/app/MipayService/MipayService.apk
-vendor/app/SensorTestTool/SensorTestTool.apk
 vendor/bin/AgentTest
 vendor/bin/DFtool
 vendor/bin/FlashCompareAPI
@@ -1579,7 +1573,6 @@ vendor/bin/fuelgauged_nvram
 vendor/bin/gbe
 vendor/bin/gsm0710muxd
 vendor/bin/hw/dolbycodec2
-vendor/bin/hw/mfp-daemon
 vendor/bin/hw/tetheroffloadservice
 vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service
@@ -1591,7 +1584,6 @@ vendor/bin/hw/vendor.microtrust.hardware.thh@2.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.cld@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.dtool@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.mimd@1.0-service
-vendor/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service
 vendor/bin/hw/vendor.xiaomi.sensor.citsensorservice@1.1-service
 vendor/bin/hw/vendor.xiaomi.sensor.communicate@1.0-service
 vendor/bin/hw/vtservice_hidl
@@ -1717,7 +1709,6 @@ vendor/etc/init/init.fpsgo.rc
 vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/init.gps_pwr.rc
 vendor/etc/init/init.gps_scp.rc
-vendor/etc/init/init.mfp-daemon.rc
 vendor/etc/init/init.thermal_core.rc
 vendor/etc/init/init.vendor.ins.rc
 vendor/etc/init/init.vtservice_hidl.rc
@@ -1748,7 +1739,6 @@ vendor/etc/init/vendor.xiaomi.hardware.dtool@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.mimd@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-iseeservice.rc
-vendor/etc/init/vendor.xiaomi.hw.touchfeature@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.sensor.citsensorservice@1.1-service.rc
 vendor/etc/init/vendor.xiaomi.sensor.communicate@1.0-service.rc
 vendor/etc/init/volte_clientapi_ua.rc
@@ -1792,8 +1782,6 @@ vendor/etc/smsdbvisitor.xml
 vendor/etc/special_pws_channel.xml
 vendor/etc/throttle.sh
 vendor/etc/vendor-apns-conf.xml
-vendor/etc/vintf/manifest/AHBF@2.1-service.xml
-vendor/etc/vintf/manifest/fod.xml
 vendor/etc/vintf/manifest/gnss-default.xml
 vendor/etc/vintf/manifest/gnss@2.1-service.xml
 vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
@@ -1807,7 +1795,6 @@ vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.otrpagent@2.0.xml
 vendor/etc/vintf/manifest/manifest_wechat.xml
 vendor/etc/vintf/manifest/vendor.mediatek.hardware.neuropilot.agent@1.0-service.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.mimd@1.0-service.xml
-vendor/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature@1.0-service.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice@1.1-service.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.sensor.communicate@1.0_manifest.xml
 vendor/etc/virtual-spn-conf-by-efgid1.xml
@@ -1816,7 +1803,6 @@ vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
 vendor/etc/wfd_source_capability.csv
 vendor/etc/xgf.cfg
-vendor/framework/com.fingerprints.extension.jar
 vendor/lib/c2.dolby.avc.dec.so
 vendor/lib/c2.dolby.avc.sec.dec.so
 vendor/lib/c2.dolby.client.so
@@ -1833,7 +1819,6 @@ vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.cld@1.0-impl.so
-vendor/lib/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.sensor.citsensorservice@1.1-impl.so
 vendor/lib/jcos_nq_client-v1.so
 vendor/lib/libHEVCdec_sa.ca7.android.so
@@ -2028,7 +2013,6 @@ vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 vendor/lib/vendor.xiaomi.hardware.cld@1.0.so
 vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
-vendor/lib/vendor.xiaomi.hw.touchfeature@1.0.so
 vendor/lib/vendor.xiaomi.sensor.citsensorservice@1.1.so
 vendor/lib64/APUWareApusysServer.so
 vendor/lib64/APUWareHmpServer.so
@@ -2040,7 +2024,6 @@ vendor/lib64/c2.dolby.egl.so
 vendor/lib64/c2.dolby.hevc.dec.so
 vendor/lib64/c2.dolby.hevc.sec.dec.so
 vendor/lib64/c2.dolby.store.so
-vendor/lib64/com.fingerprints.extension@3.0.so
 vendor/lib64/com.xiaomi.plugin.arcsoftsr.so
 vendor/lib64/com.xiaomi.plugin.capbokeh.so
 vendor/lib64/com.xiaomi.plugin.dc.so
@@ -2069,7 +2052,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.cld@1.0-impl.so
-vendor/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.sensor.citsensorservice@1.1-impl.so
 vendor/lib64/jcos_nq_client-v1.so
 vendor/lib64/lbs_hidl_service-impl.so
@@ -2325,7 +2307,6 @@ vendor/lib64/vendor.xiaomi.hardware.mimd@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.otrpagent@2.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.otrpagent@2.0.so
 vendor/lib64/vendor.xiaomi.hardware.vsimapp@1.0.so
-vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so
 vendor/lib64/vendor.xiaomi.sensor.citsensorservice@1.1.so
 vendor/lib64/vendor.xiaomi.sensor.communicate@1.0.so
 
