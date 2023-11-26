@@ -132,6 +132,10 @@ on boot
     chown system /sys/class/flashlight_core/flashlight/torchbrightness
     chmod 0666 /sys/class/flashlight_core/flashlight/torchbrightness
 
+    # Set xiaomi touch permissions
+    chown system system /dev/xiaomi-touch
+    chmod 0660 /dev/xiaomi-touch
+    
 service taskset_sh /vendor/bin/init.taskset.sh
     class main
     user root
