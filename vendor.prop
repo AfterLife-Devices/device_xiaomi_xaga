@@ -123,9 +123,7 @@ drm.service.enabled=true
 ro.vendor.mtk_widevine_drm_l1_support=1
 
 # Display
-debug.hwui.renderer=opengl
 debug.hwui.skia_atrace_enabled=false
-debug.renderengine.backend=skiaglthreaded
 debug.sf.auto_latch_unsignaled=true
 debug.sf.disable_backpressure=1
 debug.sf.disable_client_composition_cache=1
