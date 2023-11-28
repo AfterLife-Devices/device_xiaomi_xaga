@@ -249,6 +249,10 @@ PRODUCT_COPY_FILES += \
 
 # MiuiCamera
 $(call inherit-product, device/xiaomi/miuicamera-xaga/device.mk)
+
+# MtkInCallService
+PRODUCT_PACKAGES += \
+    MtkInCallService
     
 # Local time
 PRODUCT_PACKAGES += \
