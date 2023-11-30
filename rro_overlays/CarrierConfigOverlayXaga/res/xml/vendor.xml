@@ -374,6 +374,8 @@
         <boolean name="carrier_use_ims_first_for_emergency_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_sa_mode_available_bool" value="true" />
+        <boolean name="carrier_disable_sa_mode_bool" value="false" />        
         <boolean name="editable_wfc_mode_bool" value="false" />
         <boolean name="hide_wfc_mode_option" value="true" />
         <boolean name="carrier_name_override_bool" value="false" />
