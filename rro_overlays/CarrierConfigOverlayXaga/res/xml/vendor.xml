@@ -10,6 +10,7 @@
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="allow_adding_apns_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
         <boolean name="config_power_center_5g_save_mode" value="true" />
         <boolean name="carrier_fiveg_power_saving_available_bool" value="true" />
         <boolean name="carrier_sa_mode_available_bool" value="false" />
@@ -376,6 +377,7 @@
         <boolean name="editable_wfc_mode_bool" value="false" />
         <boolean name="hide_wfc_mode_option" value="true" />
         <boolean name="carrier_name_override_bool" value="false" />
+        <boolean name="vonr_enabled_bool" value="true" />
         <string name="carrier_name_string" />
         <boolean name="show_merge_button_on_conference_participant" value="true" />
         <boolean name="mtk_carrier_wfc_get_location_always" value="true" />
