@@ -39,6 +39,8 @@
 /vendor/lib(64)?/com.xiaomi.plugin.superlowlight\.so      u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/com.xiaomi.plugin.supernight\.so         u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/com.xiaomi.plugin.swflip\.so             u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/com.xiaomi.plugin.tetrassr\.so           u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/com.xiaomi.plugin.sr\.so                 u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libalAILDC\.so                           u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libalAI_Seg\.so                          u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libalCFR\.so                             u:object_r:same_process_hal_file:s0
