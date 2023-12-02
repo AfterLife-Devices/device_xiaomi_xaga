@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_xaga.mk
+    $(LOCAL_DIR)/afterlife_xaga.mk
 
 COMMON_LUNCH_CHOICES := \
     afterlife_xaga-user \
