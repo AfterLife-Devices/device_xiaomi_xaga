@@ -900,6 +900,7 @@ vendor/lib64/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
 # Display
+product/etc/displayconfig/display_id_0.xml:vendor/etc/displayconfig/display_id_0.xml
 vendor/bin/hw/android.hardware.memtrack-service.mediatek
 vendor/bin/hw/mt6895/android.hardware.graphics.allocator@4.0-service-mediatek.mt6895
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
